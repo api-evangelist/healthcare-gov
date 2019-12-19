@@ -1,0 +1,655 @@
+{
+    "id": "17bf2a0342e12f528dcf95c3819570a1",
+    "name": "Healthcare",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "3e148198327a6c74d0648a141bb9c77a",
+            "name": "Get API Articles Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/api\/articles{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "68144214bd9f96e92efd1e126df12880",
+            "name": "Get API Blog Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/api\/blog{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "79fa3659951a12995a7829f95061248c",
+            "name": "Get API Glossary Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/api\/glossary{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "01a337ac04f96966969c6bdf65f6cd2e",
+            "name": "Get API Questions Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/api\/questions{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "a6e97c4b70f484d57c5123d0d8f5bba2",
+            "name": "Get API States Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/api\/states{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "d92cf5d098d6e825a28662a932097650",
+            "name": "Get API Topics Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/api\/topics{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "58d7fbeebc93c3e8b632d348053bc40a",
+            "name": "Get Blog Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/blog\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "9b4a560d34f134076ebbbfcfd27bfbbd",
+            "name": "GetBlog Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/es\/blog\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "039b8c08a5721464403dc29708c69b2f",
+            "name": "Get Glossary Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/es\/glossary\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "1bc2a0a6e9bb8991e41947939eb8cd76",
+            "name": "Get Question Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/es\/question\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "23b19861c4016698ebe2539588b55dc5",
+            "name": "Get Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/es\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "f655a0daa005f97062e2af705bf028cb",
+            "name": "Get State Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/es\/{stateName}{mediaTypeExtension}\/",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "stateName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "3e42fedb18d8fec2932a591af5c57068",
+            "name": "Get Glossary Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/glossary\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "0461116871fc5f8a6ce66cb227ae159e",
+            "name": "Get Question Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/question\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "fa04cd77125e763ae4499e45afc65625",
+            "name": "Get Page Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/{pageName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pageName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "90d1d59758ac90309de81967017e2b66",
+            "name": "Get State Name Media Type Extension",
+            "url": "http:\/\/www.healthcare.gov\/\/{stateName}{mediaTypeExtension}\/",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "stateName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "91150274a11f2794e1ca5014d9713f14",
+            "name": "",
+            "url": "http:\/\/www.healthcare.gov\/\/es\/{stateName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "stateName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        },
+        {
+            "id": "e0ab47e2ce0e216cf1b4e24e0b162e5f",
+            "name": "",
+            "url": "http:\/\/www.healthcare.gov\/\/{stateName}{mediaTypeExtension}",
+            "description": "Returns pages content.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "mediaTypeExtension",
+                    "description": "Omiting the param causes html to be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "stateName",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "rawModeData": ""
+        }
+    ]
+}
