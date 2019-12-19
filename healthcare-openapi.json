@@ -1,0 +1,924 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Healthcare",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpswww.healthcare.gov\/",
+        "http:\/\/www.healthcare.gov\/"
+    ],
+    "paths": {
+        "\/api\/articles{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get API Articles Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/api\/blog{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get API Blog Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/api\/glossary{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get API Glossary Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/api\/questions{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get API Questions Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/api\/states{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get API States Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/api\/topics{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get API Topics Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/blog\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get Blog Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/es\/blog\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "GetBlog Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/es\/glossary\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get Glossary Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/es\/question\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get Question Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/es\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/es\/{stateName}{mediaTypeExtension}\/": {
+            "get": {
+                "summary": "Get State Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "stateName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/glossary\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get Glossary Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/question\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get Question Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/{pageName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "Get Page Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "pageName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/{stateName}{mediaTypeExtension}\/": {
+            "get": {
+                "summary": "Get State Name Media Type Extension",
+                "description": "Returns pages content.",
+                "operationId": "ReturnsPagesContent",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "stateName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/es\/{stateName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "",
+                "description": "Returns pages content.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "stateName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "\/{stateName}{mediaTypeExtension}": {
+            "get": {
+                "summary": "",
+                "description": "Returns pages content.",
+                "operationId": "",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "mediaTypeExtension",
+                        "in": "path",
+                        "description": "Omiting the param causes html to be returned."
+                    },
+                    {
+                        "name": "stateName",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application\/json": {
+                                "schema": {
+                                    "$href": "#\/components\/schemas\/articlesList"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "articlesList": {
+                "type": "object",
+                "properties": {
+                    "articles": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "blogList": {
+                "type": "object",
+                "properties": {
+                    "blog": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "blogPage": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "excerpt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "lang": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "layout": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "published": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "seo": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sort": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "topics": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "meta-description": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "meta-title": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "seo-keywords": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "glossaryList": {
+                "type": "object",
+                "properties": {
+                    "glossary": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "glossaryPage": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "excerpt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "lang": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "layout": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "published": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "sort": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "page": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "excerpt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "experience": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "lang": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "layout": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "published": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "sort": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "questionPage": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "excerpt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "lang": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "published": {
+                        "description": "",
+                        "type": "boolean"
+                    },
+                    "sort": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "questionsList": {
+                "type": "object",
+                "properties": {
+                    "questions": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "statePage": {
+                "type": "object",
+                "properties": {
+                    "categories": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "content": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "date": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "excerpt": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "lang": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "path": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "sort": {
+                        "description": "",
+                        "type": "number"
+                    },
+                    "stateurl": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "tags": {
+                        "description": "",
+                        "type": "array"
+                    },
+                    "title": {
+                        "description": "",
+                        "type": "string"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "string"
+                    }
+                }
+            },
+            "statesList": {
+                "type": "object",
+                "properties": {
+                    "states": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "topicsList": {
+                "type": "object",
+                "properties": {
+                    "topics": {
+                        "description": "",
+                        "type": "array"
+                    }
+                }
+            },
+            "articles": {
+                "type": "array"
+            },
+            "blog": {
+                "type": "array"
+            },
+            "categories": {
+                "type": "array"
+            },
+            "tags": {
+                "type": "array"
+            },
+            "topics": {
+                "type": "array"
+            },
+            "glossary": {
+                "type": "array"
+            },
+            "questions": {
+                "type": "array"
+            },
+            "states": {
+                "type": "array"
+            }
+        }
+    }
+}
