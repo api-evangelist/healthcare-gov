@@ -1,5 +1,5 @@
 {
-    "id": "17bf2a0342e12f528dcf95c3819570a1",
+    "id": "9c70c1748527615ef1c12f83d910d65d",
     "name": "Healthcare",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "3e148198327a6c74d0648a141bb9c77a",
+            "id": "a8a52606d20a678b343d721aa44572f1",
             "name": "Get API Articles Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/api\/articles{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "68144214bd9f96e92efd1e126df12880",
+            "id": "fed88fdeb79d237fbc9bf9b8cc1ae0f2",
             "name": "Get API Blog Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/api\/blog{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "79fa3659951a12995a7829f95061248c",
+            "id": "7e71fd845117214b0be1698c81d7ad5c",
             "name": "Get API Glossary Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/api\/glossary{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -99,11 +99,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "01a337ac04f96966969c6bdf65f6cd2e",
+            "id": "7348367824df734acc3e657f7e2fb5f0",
             "name": "Get API Questions Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/api\/questions{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -130,11 +130,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "a6e97c4b70f484d57c5123d0d8f5bba2",
+            "id": "e55216d4152e98e5c8b1382ee3bcf2d4",
             "name": "Get API States Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/api\/states{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -161,11 +161,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "d92cf5d098d6e825a28662a932097650",
+            "id": "aaccabac2be7186d41b648290a738c01",
             "name": "Get API Topics Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/api\/topics{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -192,11 +192,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "58d7fbeebc93c3e8b632d348053bc40a",
+            "id": "063712e89849fe3c86a48660a901c9ed",
             "name": "Get Blog Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/blog\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -230,11 +230,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "9b4a560d34f134076ebbbfcfd27bfbbd",
+            "id": "28cf69f4f04a28561eea3c07de2dc409",
             "name": "GetBlog Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/es\/blog\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -268,11 +268,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "039b8c08a5721464403dc29708c69b2f",
+            "id": "3665c138d5387e858f4ecbe2a037e5f2",
             "name": "Get Glossary Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/es\/glossary\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -306,11 +306,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "1bc2a0a6e9bb8991e41947939eb8cd76",
+            "id": "ec10b67a494c07ecb5be74737b0a84a7",
             "name": "Get Question Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/es\/question\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -344,11 +344,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "23b19861c4016698ebe2539588b55dc5",
+            "id": "b0728810a79bed8adb6cb13ab25861b4",
             "name": "Get Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/es\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -382,11 +382,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "f655a0daa005f97062e2af705bf028cb",
+            "id": "b37647adbb6d6a2e2d14be675c3a64af",
             "name": "Get State Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/es\/{stateName}{mediaTypeExtension}\/",
             "description": "Returns pages content.",
@@ -420,11 +420,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "3e42fedb18d8fec2932a591af5c57068",
+            "id": "2d902687aec2658e1e4507420f727034",
             "name": "Get Glossary Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/glossary\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -458,11 +458,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "0461116871fc5f8a6ce66cb227ae159e",
+            "id": "38b4ec2aa3bb1fc89a0a5d063e6eaccd",
             "name": "Get Question Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/question\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -496,11 +496,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "fa04cd77125e763ae4499e45afc65625",
+            "id": "976c2ff38f2281cc5e5e6ee4b45bc493",
             "name": "Get Page Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/{pageName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -534,11 +534,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "90d1d59758ac90309de81967017e2b66",
+            "id": "13d626b610f13bf0c6251bedbf876558",
             "name": "Get State Name Media Type Extension",
             "url": "http:\/\/www.healthcare.gov\/\/{stateName}{mediaTypeExtension}\/",
             "description": "Returns pages content.",
@@ -572,11 +572,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "91150274a11f2794e1ca5014d9713f14",
+            "id": "72687573fea1f13d485676793703213e",
             "name": "",
             "url": "http:\/\/www.healthcare.gov\/\/es\/{stateName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -610,11 +610,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         },
         {
-            "id": "e0ab47e2ce0e216cf1b4e24e0b162e5f",
+            "id": "5604e11c544a2269218d5fdbaefdae89",
             "name": "",
             "url": "http:\/\/www.healthcare.gov\/\/{stateName}{mediaTypeExtension}",
             "description": "Returns pages content.",
@@ -648,7 +648,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "17bf2a0342e12f528dcf95c3819570a1",
+            "collectionId": "9c70c1748527615ef1c12f83d910d65d",
             "rawModeData": ""
         }
     ]
