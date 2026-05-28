@@ -1,0 +1,32 @@
+aid: healthcare-gov
+name: Healthcare.gov
+description: "Educational content about the US Health Insurance Marketplace"
+url: https://www.healthcare.gov/developers/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: Healthcare.gov
+    description: "Educational content about the US Health Insurance Marketplace"
+    humanURL: https://www.healthcare.gov/developers/
+    baseURL: https://www.healthcare.gov/developers/
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://www.healthcare.gov/developers/
+common:
+  - type: Website
+    url: https://www.healthcare.gov/developers/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
