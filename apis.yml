@@ -39,7 +39,6 @@ apis:
   - name: Healthcare.gov
     description: "Educational content about the US Health Insurance Marketplace"
     humanURL: https://www.healthcare.gov/developers/
-    baseURL: https://www.healthcare.gov/developers/
     tags:
       - Health
     properties:
